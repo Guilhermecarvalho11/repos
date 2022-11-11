@@ -86,7 +86,7 @@ export const SubmitButton = styled.button.attrs(props => ({
   ${props => props.loading &&
     css`
       svg{
-        animate: ${animate} 2s linear infinite;
+        animation: ${animate} 2s linear infinite;
       }
     `
     }
